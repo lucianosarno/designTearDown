@@ -191,7 +191,7 @@
 .personOfWeekText {
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 75%;
   line-height: 1.5rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   float: right;
@@ -200,9 +200,8 @@
 
 .personOfWeek:after {
   content: ".";
-  visibility: hidden;
+  /* visibility: hidden; */
   display: block;
-  height: 0;
   clear: both;
 }
 
@@ -239,7 +238,17 @@
   margin-top: -15px;
 }
 
-.thirdArticlesSection {}
+.thirdArticle {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+}
+
+.thirdArticlesSection {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1% 3%;
+}
 
 .thumbAuthor {
   height: 4rem;
