@@ -30,12 +30,6 @@
   margin-left: 2rem;
 }
 
-.topArticlesSection {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
 .articleAuthorP {
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
@@ -201,11 +195,15 @@
   line-height: 1.5rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   float: right;
+  font-size: 1.2em;
 }
 
-.personOfWeekText :after {
-  content: "";
-  float: none;
+.personOfWeek:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
 }
 
 .personOfWeekThumb {
@@ -241,6 +239,8 @@
   margin-top: -15px;
 }
 
+.thirdArticlesSection {}
+
 .thumbAuthor {
   height: 4rem;
   cursor: pointer;
@@ -253,6 +253,12 @@
 .thumbAuthor:hover {
   transform: rotateZ(0);
   transition: transform .2s ease-out;
+}
+
+.topArticlesSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .topMenuA {
