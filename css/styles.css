@@ -1,8 +1,13 @@
 .article {}
 
+.article__articleHeader {}
+
 .article__thumbAuthor {
-  margin-left: 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
 }
+
+.articleHeader {}
 
 .articleTitle {
   color: white;
@@ -72,6 +77,38 @@
   text-align: center;
 }
 
+.title {
+  color: black;
+  background-color: white;
+  font-size: 2em;
+  width: 32%;
+  line-height: 1.5em;
+  margin: auto;
+  text-align: center;
+  margin-top: -5px;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.title_phrase2 {
+  width: 14%;
+  margin-top: -15px;
+}
+
+.thumbAuthor {
+  height: 4rem;
+  cursor: pointer;
+  transform: rotateZ(calc(-11 * 1deg));
+  transition: transform .2s ease-out;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.thumbAuthor:hover {
+  transform: rotateZ(0);
+  transition: transform .2s ease-out;
+}
+
 .topMenuA {
   padding: 15px;
   border-radius: 12px;
@@ -100,32 +137,4 @@
   line-height: 1.5em;
   padding: 5px 15px;
   box-sizing: border-box;
-}
-
-.title {
-  color: black;
-  background-color: white;
-  font-size: 2em;
-  width: 32%;
-  line-height: 1.5em;
-  margin: auto;
-  text-align: center;
-  margin-top: -5px;
-  padding: 10px;
-  font-weight: 700;
-}
-
-.title_phrase2 {
-  width: 14%;
-  margin-top: -15px;
-}
-
-.thumbAuthor {
-  height: 3rem;
-  cursor: pointer;
-}
-
-.thumbAuthor :hover {
-  transform: scale(1.2) rotateZ(calc(11 * 1deg));
-  transition: transform .2s ease-out;
 }
