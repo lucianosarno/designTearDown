@@ -140,14 +140,21 @@
 .nav__topSearchInput {}
 
 .secondaryArticle {
-  width: 30%;
+  width: 33%;
+  background-color: white;
+  line-height: 2rem;
+  margin-top: 0.5rem;
+}
+
+.secondaryArticle:hover {
+  transform: scale(1.15);
+  transition-duration: 0.1s;
 }
 
 .secondaryArticle__date {
   font-size: 0.75rem;
   font-weight: 700;
   height: auto;
-  line-height: 1rem;
   font-variant-caps: all-petite-caps;
 }
 
@@ -161,13 +168,11 @@
 }
 
 .secondaryArticlesSection {
-  display: flexbox;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   background-color: white;
-}
-
-.secondaryArticlesSection:hover {
-  transform: scale(1.5);
-  transition-duration: 0.1s;
 }
 
 .secondaryArticlesSection__secondaryArticle {}
