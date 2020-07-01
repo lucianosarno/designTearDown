@@ -7,12 +7,18 @@
   height: min-content;
   width: 37rem;
   background-color: #777;
+  display: flex;
+  flex-direction: column;
 }
 
 .article__articleHeader {}
 
 .article__articleTitlerP {
   margin-left: 2rem;
+}
+
+.article__content {
+  margin: 1rem;
 }
 
 .article__tag {
@@ -30,18 +36,41 @@
   justify-content: space-between;
 }
 
-.articleHeader {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 .articleAuthorP {
   color: white;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
   font-weight: bold;
   width: max-content;
   margin: 0;
+}
+
+.articleHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.articleTags_hash {
+  color: #222;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.articleTags_text {
+  color: white;
+  font-weight: bold;
+}
+
+.articleTags_number {
+  font-weight: bold;
+  color: white;
+}
+
+.articleTitleP {
+  color: white;
+  background-color: #333;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .articleTitleP_wrote {
@@ -52,7 +81,7 @@
   padding: 0;
   margin: 0;
   width: 100%;
-  background-color: #E4392C;
+  background-color: #999;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -77,6 +106,8 @@
 .main__article {
   float: left;
 }
+
+.main__secondaryArticlesSection {}
 
 .main__title {
   margin: auto;
@@ -105,6 +136,8 @@
 .nav__topMenuA_more {}
 
 .nav__topSearchInput {}
+
+.secondaryArticlesSection {}
 
 .title {
   color: white;
@@ -148,7 +181,7 @@
 }
 
 .topMenuA_moreButton {
-  background-color: #B43125;
+  background-color: #888;
 }
 
 .topMenuA_moreButton:hover {
@@ -166,40 +199,4 @@
   line-height: 1.5em;
   padding: 5px 15px;
   box-sizing: border-box;
-}
-
-.main__article {
-  display: flex;
-  flex-direction: column;
-}
-
-.articleTitleP {
-  color: white;
-  background-color: #333;
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.content_items {
-  color: white;
-}
-
-.article__content {
-  margin: 1rem;
-}
-
-.articleTags_hash {
-  color: #61140F;
-  font-weight: bold;
-  margin-left: 2rem;
-}
-
-.articleTags_text {
-  color: white;
-  font-weight: bold;
-}
-
-.articleTags_number {
-  font-weight: bold;
-  color: white;
 }
