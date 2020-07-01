@@ -10,7 +10,7 @@
   margin: 0;
 }
 
-/* .body__main {} */
+.body__main {}
 
 .header {
   padding: 0;
@@ -48,9 +48,9 @@
   text-decoration: none;
 }
 
-/* .nav__topMenuA_more {}
+.nav__topMenuA_more {}
 
-.nav__topSearchInput {} */
+.nav__topSearchInput {}
 
 .title {
   color: black;
@@ -90,7 +90,7 @@
   box-sizing: border-box;
 }
 
-.main-title{
+.title {
   color: black;
   background-color: white;
   font-size: 2em;
@@ -100,21 +100,22 @@
   margin-top: -1px;
 }
 
-.article p{
+.articleTitle {
   color: white;
-  text-shadow: 1px 1px 1px rgba(0,0,0,.25);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
   font-weight: bold;
 }
 
-.article span{
+.article span {
   margin-left: 1rem;
 }
 
-.article img{
+.article img {
   height: 3rem;
   cursor: pointer;
 }
-.img :hover{
+
+.img :hover {
   transform: scale(1.2) rotateZ(calc(11 * 1deg));
   transition: transform .2s ease-out;
-} 
+}
