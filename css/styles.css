@@ -280,7 +280,7 @@
 
 .thirdArticlesSection {
   display: flex;
-  width:81rem;
+  width: 81rem;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 1% 3%;
@@ -515,6 +515,6 @@
   margin-top: -87px;
 }
 
-h6{
+h6 {
   position: absolute;
 }
