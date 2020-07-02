@@ -495,3 +495,7 @@
   color: white;
   padding: 1rem;
 }
+
+h2 {
+  visibility: hidden;
+}
