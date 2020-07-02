@@ -58,8 +58,6 @@
   flex-direction: column;
 }
 
-.article__articleHeader {}
-
 .article__articleTitlerP {
   margin-left: 2rem;
 }
@@ -107,8 +105,6 @@
   color: white;
 }
 
-.articleTextP {}
-
 .articleTitleP {
   color: white;
   background-color: #333;
@@ -131,8 +127,6 @@
 .body__header {
   margin: 0;
 }
-
-.body__main {}
 
 .header {
   padding: 0;
@@ -186,10 +180,6 @@
   text-decoration: none;
 }
 
-.nav__topMenuA_more {}
-
-.nav__topSearchInput {}
-
 .secondaryArticle {
   width: 33%;
   background-color: white;
@@ -209,10 +199,6 @@
   font-variant-caps: all-petite-caps;
 }
 
-.secondaryArticle__author {}
-
-.secondaryArticle__intro {}
-
 .secondaryArticle__title {
   font-size: 2.3em;
   font-weight: 500;
@@ -226,8 +212,6 @@
   background-color: white;
 }
 
-.secondaryArticlesSection__secondaryArticle {}
-
 .personOfWeek {
   background-color: white;
   width: 90%;
@@ -238,8 +222,6 @@
 .personOfWeek__personOfWeekThumb {
   float: left;
 }
-
-.personOfWeek__personOfWeekText {}
 
 .personOfWeekText {
   display: flex;
@@ -309,8 +291,6 @@
   margin-left: 5%;
 }
 
-.thirdArticleAuthorP {}
-
 .thirdArticleTextP {
   font-size: 1rem;
   line-height: 1.5;
@@ -371,37 +351,37 @@
   box-sizing: border-box;
 }
 
-.fourthArticle{
+.fourthArticle {
   display: flex;
   justify-content: space-around;
 }
 
-.fourthArticlesection_fourthArticle{
+.fourthArticlesection_fourthArticle {
   background-color: white;
   padding: 2rem;
 }
 
-.fourthArticleHeading{
+.fourthArticleHeading {
   color: black;
   padding: 20px;
   font-weight: lighter;
   font-size: small;
 }
 
-.fourthArticleText{
+.fourthArticleText {
   font-size: xx-large;
-  color: orange;
+  color: #444;
   padding: 20px;
 }
 
-.fourthArticleContent{
+.fourthArticleContent {
   color: black;
   padding: 20px;
 }
 
-.fourthArticlebutton{
+.fourthArticlebutton {
   color: white;
-  background-color: teal;
+  background-color: #444;
   padding: 20px;
   margin: 20px;
   border-radius: 5px;
@@ -409,28 +389,28 @@
   font-size: larger;
 }
 
-.footerheading{
+.footerheading {
   color: white;
   text-align: center;
   margin-top: 5rem;
 }
 
-.footerfirstpart{
+.footerfirstpart {
   color: white;
   display: flex;
   margin-left: 8rem;
   margin-top: 5rem;
 }
 
-.footerfirstpartitems{
+.footerfirstpartitems {
   padding-right: 38px;
 }
 
-.footerfirstpartitems :hover{
-color: black;
+.footerfirstpartitems :hover {
+  color: black;
 }
 
-.footersecondpart{
+.footersecondpart {
   color: white;
   display: flex;
   margin-left: 8rem;
@@ -438,15 +418,15 @@ color: black;
   padding-left: 3rem;
 }
 
-.footersecondpartitems{
+.footersecondpartitems {
   padding-right: 38px;
 }
 
-.footersecondpartitems :hover{
-color: black;
+.footersecondpartitems :hover {
+  color: black;
 }
 
-.footerthirdpart{
+.footerthirdpart {
   color: white;
   display: flex;
   margin-left: 8rem;
@@ -454,15 +434,15 @@ color: black;
   padding-left: 1rem;
 }
 
-.footerthirdpartitems{
+.footerthirdpartitems {
   padding-right: 38px;
 }
 
-.footerthirdpartitems :hover{
-color: black;
+.footerthirdpartitems :hover {
+  color: black;
 }
 
-.footerfourthpart{
+.footerfourthpart {
   color: white;
   display: flex;
   margin-left: 8rem;
@@ -470,38 +450,38 @@ color: black;
   padding-left: 25rem;
 }
 
-.footerfourthpartitems{
+.footerfourthpartitems {
   padding-right: 38px;
 }
 
-.footerfourthpartitems :hover{
-color: black;
+.footerfourthpartitems :hover {
+  color: black;
 }
 
-.footertwo{
-margin: 3rem 25rem;
+.footertwo {
+  margin: 3rem 25rem;
 }
 
-.paraone{
+.paraone {
   color: white;
   font-style: italic;
   padding: 0.5rem;
   text-align: center;
 }
 
-.paratwo{
+.paratwo {
   color: white;
   padding: 0.5rem;
   text-align: center;
 }
 
-.parathree{
+.parathree {
   color: white;
   padding: 0.5rem;
   text-align: center;
 }
 
-.parafour{
+.parafour {
   color: white;
   padding: 0.5rem;
   text-align: center;
@@ -513,7 +493,7 @@ margin: 3rem 25rem;
   margin-bottom: 0.5rem;
 }
 
-.footerend a{
+.footerend a {
   color: white;
   padding: 1rem;
 }
