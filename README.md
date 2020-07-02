@@ -1,7 +1,7 @@
 # Design Tear Down
 > Luciano and Karthick 5th project in HTML&CSS3 module.
 
-![screenshot](asset/Screenshot.png)
+![screenshot](asset/screenShot.png)
 
 In this task we were required to create a HeatMap of the site Smashing Magazine.
 
