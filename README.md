@@ -23,7 +23,7 @@ In this task we were required to create a HeatMap of the site Smashing Magazine.
 
 👤 Harthick Harimoorthy
 
-- Github: [@githubhandle](https://github.com/karthykarthick)
+- Github: [@karthykarthick](https://github.com/karthykarthick)
 - Linkedin: [linkedin](https://www.linkedin.com/in/karthick-harimoorthy/)
 
 ## 🤝 Contributing
