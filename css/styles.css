@@ -6,7 +6,7 @@
 .advertisementSection {
   width: 100%;
   box-sizing: border-box;
-  padding: 80px;
+  padding: 50px;
   background-color: #888;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .advertisementSection__link {
-  width: 420px;
+  width: 150px;
   line-height: 2rem;
   font-size: 2rem;
   background-color: #666;
@@ -44,14 +44,13 @@
   margin-top: -100px;
 }
 
-.advertisementSection :after {
+.advertisementSection::after {
   content: "";
   display: block;
   clear: both;
 }
 
 .article {
-  height: min-content;
   width: 37rem;
   background-color: #777;
   display: flex;
@@ -226,12 +225,12 @@
   flex-direction: column;
   width: 75%;
   line-height: 1.5rem;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   float: right;
   font-size: 1.2em;
 }
 
-.personOfWeek :after {
+.personOfWeek::after {
   content: ".";
   display: block;
   clear: both;
@@ -254,7 +253,7 @@
 
 .title {
   color: white;
-  background-color: #111;
+  background-color:#111;
   font-size: 2em;
   width: 32%;
   line-height: 1.5em;
@@ -280,7 +279,6 @@
 
 .thirdArticlesSection {
   display: flex;
-  width: 81rem;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 1% 3%;
@@ -369,7 +367,7 @@
 
 .fourthArticleText {
   font-size: xx-large;
-  color: orange;
+  color: #444;
   padding: 20px;
 }
 
@@ -380,7 +378,7 @@
 
 .fourthArticlebutton {
   color: white;
-  background-color: teal;
+  background-color: #444;
   padding: 20px;
   margin: 20px;
   border-radius: 5px;
@@ -497,6 +495,11 @@
   padding: 1rem;
 }
 
+h2 {
+  visibility: hidden;
+}
+
+
 .imgsec {
   padding: 6rem;
   background-color: white;
@@ -515,6 +518,4 @@
   margin-top: -87px;
 }
 
-h6 {
-  position: absolute;
-}
+h6 { position: absolute; }
