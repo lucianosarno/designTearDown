@@ -520,3 +520,7 @@ h2 {
 h6 {
   position: absolute;
 }
+
+img {
+  background-color: #333;
+}

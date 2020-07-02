@@ -12,7 +12,7 @@ In this task we were required to create a HeatMap of the site Smashing Magazine.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/lucianosarno/designTearDown/54ddfe96260e2740f1dd1bcd0caff6ae3a18d4a6/index.html)
 
 ## Authors
 
