@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -46,7 +44,7 @@
   margin-top: -100px;
 }
 
-.advertisementSection:after {
+.advertisementSection :after {
   content: "";
   display: block;
   clear: both;
@@ -59,7 +57,6 @@
   display: flex;
   flex-direction: column;
 }
-
 
 .article__articleTitlerP {
   margin-left: 2rem;
@@ -80,7 +77,7 @@
 
 .articleAuthorP {
   color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   font-weight: bold;
   width: max-content;
   margin: 0;
@@ -108,7 +105,6 @@
   color: white;
 }
 
-
 .articleTitleP {
   color: white;
   background-color: #333;
@@ -131,8 +127,6 @@
 .body__header {
   margin: 0;
 }
-
-
 
 .header {
   padding: 0;
@@ -186,7 +180,6 @@
   text-decoration: none;
 }
 
-
 .secondaryArticle {
   width: 33%;
   background-color: white;
@@ -206,7 +199,6 @@
   font-variant-caps: all-petite-caps;
 }
 
-
 .secondaryArticle__title {
   font-size: 2.3em;
   font-weight: 500;
@@ -220,7 +212,6 @@
   background-color: white;
 }
 
-
 .personOfWeek {
   background-color: white;
   width: 90%;
@@ -229,7 +220,6 @@
 .personOfWeek__personOfWeekThumb {
   float: left;
 }
-
 
 .personOfWeekText {
   display: flex;
@@ -251,7 +241,7 @@
   width: 20%;
   cursor: pointer;
   transform: rotateZ(calc(-11 * 1deg));
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
   border: 5px solid white;
   border-radius: 10px;
 }
@@ -299,7 +289,6 @@
   margin-left: 5%;
 }
 
-
 .thirdArticleTextP {
   font-size: 1rem;
   line-height: 1.5;
@@ -314,14 +303,14 @@
   height: 4rem;
   cursor: pointer;
   transform: rotateZ(calc(-11 * 1deg));
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
   border: 5px solid white;
   border-radius: 10px;
 }
 
 .thumbAuthor:hover {
   transform: rotateZ(0);
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
 }
 
 .topArticlesSection {
