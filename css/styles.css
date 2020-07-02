@@ -370,3 +370,150 @@
   padding: 5px 15px;
   box-sizing: border-box;
 }
+
+.fourthArticle{
+  display: flex;
+  justify-content: space-around;
+}
+
+.fourthArticlesection_fourthArticle{
+  background-color: white;
+  padding: 2rem;
+}
+
+.fourthArticleHeading{
+  color: black;
+  padding: 20px;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.fourthArticleText{
+  font-size: xx-large;
+  color: orange;
+  padding: 20px;
+}
+
+.fourthArticleContent{
+  color: black;
+  padding: 20px;
+}
+
+.fourthArticlebutton{
+  color: white;
+  background-color: teal;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+.footerheading{
+  color: white;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.footerfirstpart{
+  color: white;
+  display: flex;
+  margin-left: 8rem;
+  margin-top: 5rem;
+}
+
+.footerfirstpartitems{
+  padding-right: 38px;
+}
+
+.footerfirstpartitems :hover{
+color: black;
+}
+
+.footersecondpart{
+  color: white;
+  display: flex;
+  margin-left: 8rem;
+  margin-top: 1rem;
+  padding-left: 3rem;
+}
+
+.footersecondpartitems{
+  padding-right: 38px;
+}
+
+.footersecondpartitems :hover{
+color: black;
+}
+
+.footerthirdpart{
+  color: white;
+  display: flex;
+  margin-left: 8rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.footerthirdpartitems{
+  padding-right: 38px;
+}
+
+.footerthirdpartitems :hover{
+color: black;
+}
+
+.footerfourthpart{
+  color: white;
+  display: flex;
+  margin-left: 8rem;
+  margin-top: 1rem;
+  padding-left: 25rem;
+}
+
+.footerfourthpartitems{
+  padding-right: 38px;
+}
+
+.footerfourthpartitems :hover{
+color: black;
+}
+
+.footertwo{
+margin: 3rem 25rem;
+}
+
+.paraone{
+  color: white;
+  font-style: italic;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.paratwo{
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.parathree{
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.parafour{
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.footerend {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.footerend a{
+  color: white;
+  padding: 1rem;
+}
