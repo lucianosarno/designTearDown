@@ -231,7 +231,7 @@
   font-size: 1.2em;
 }
 
-.personOfWeek:after {
+.personOfWeek :after {
   content: ".";
   display: block;
   clear: both;
@@ -280,6 +280,7 @@
 
 .thirdArticlesSection {
   display: flex;
+  width:81rem;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 1% 3%;
@@ -512,4 +513,8 @@
   position: absolute;
   left: 54px;
   margin-top: -87px;
+}
+
+h6{
+  position: absolute;
 }
