@@ -44,7 +44,7 @@
   margin-top: -100px;
 }
 
-.advertisementSection:after {
+.advertisementSection::after {
   content: "";
   display: block;
   clear: both;
@@ -77,7 +77,7 @@
 
 .articleAuthorP {
   color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, .25);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   font-weight: bold;
   width: max-content;
   margin: 0;
@@ -215,8 +215,6 @@
 .personOfWeek {
   background-color: white;
   width: 90%;
-  /* display: flex;
-  flex-direction: row; */
 }
 
 .personOfWeek__personOfWeekThumb {
@@ -233,7 +231,7 @@
   font-size: 1.2em;
 }
 
-.personOfWeek:after {
+.personOfWeek::after {
   content: ".";
   display: block;
   clear: both;
@@ -243,7 +241,7 @@
   width: 20%;
   cursor: pointer;
   transform: rotateZ(calc(-11 * 1deg));
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
   border: 5px solid white;
   border-radius: 10px;
 }
@@ -305,14 +303,14 @@
   height: 4rem;
   cursor: pointer;
   transform: rotateZ(calc(-11 * 1deg));
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
   border: 5px solid white;
   border-radius: 10px;
 }
 
 .thumbAuthor:hover {
   transform: rotateZ(0);
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
 }
 
 .topArticlesSection {
@@ -327,7 +325,7 @@
 }
 
 .topMenuA:hover {
-  background-color: #B43125;
+  background-color: #b43125;
 }
 
 .topMenuA_moreButton {
@@ -335,7 +333,7 @@
 }
 
 .topMenuA_moreButton:hover {
-  background-color: #8E3A30;
+  background-color: #8e3a30;
 }
 
 .topSearchInput {
