@@ -99,11 +99,6 @@
   font-weight: bold;
 }
 
-.articleTags_number {
-  font-weight: bold;
-  color: white;
-}
-
 .articleTitleP {
   color: white;
   background-color: #333;
@@ -127,14 +122,6 @@
   margin: 0;
 }
 
-.header {
-  padding: 0;
-}
-
-.header__nav {
-  margin: 10px;
-}
-
 .main {
   padding: 0;
 }
@@ -145,10 +132,6 @@
 
 .main__article {
   float: left;
-}
-
-.main__personOfWeek {
-  margin: auto;
 }
 
 .main__secondaryArticlesSection {
@@ -338,6 +321,7 @@
 .topSearchInput {
   width: 350px;
   height: 56px;
+  margin-top: -10px;
   border-radius: 10px;
   border: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -419,10 +403,6 @@
   padding-right: 38px;
 }
 
-.footersecondpartitems :hover {
-  color: black;
-}
-
 .footerthirdpart {
   color: white;
   display: flex;
@@ -433,10 +413,6 @@
 
 .footerthirdpartitems {
   padding-right: 38px;
-}
-
-.footerthirdpartitems :hover {
-  color: black;
 }
 
 .footerfourthpart {
@@ -451,10 +427,6 @@
   padding-right: 38px;
 }
 
-.footerfourthpartitems :hover {
-  color: black;
-}
-
 .footertwo {
   margin: 3rem 25rem;
 }
@@ -467,18 +439,6 @@
 }
 
 .paratwo {
-  color: white;
-  padding: 0.5rem;
-  text-align: center;
-}
-
-.parathree {
-  color: white;
-  padding: 0.5rem;
-  text-align: center;
-}
-
-.parafour {
   color: white;
   padding: 0.5rem;
   text-align: center;
@@ -500,21 +460,20 @@ h2 {
 }
 
 .imgsec {
-  padding: 6rem;
-  background-color: white;
-  margin-right: 72px;
-  position: absolute;
   right: 54px;
   margin-top: -87px;
 }
 
 .img-sec {
+  left: 54px;
+  margin-top: -87px;
+}
+
+.common{
   padding: 6rem;
   background-color: white;
   margin-left: 72px;
   position: absolute;
-  left: 54px;
-  margin-top: -87px;
 }
 
 h6 {
@@ -523,4 +482,15 @@ h6 {
 
 img {
   background-color: #333;
+}
+
+.header__nav li {
+  list-style-type: none;
+  padding: 20px 17px 5px 18px;
+  align-items: baseline;
+}
+
+.header__nav ul {
+  display: flex;
+  justify-content: space-evenly;
 }
